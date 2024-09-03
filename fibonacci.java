@@ -16,7 +16,7 @@ public class fibonacci {
 
  public static boolean verificaFibonacci(int num){
     if (num == 0 || num == 1) {
-        return true; // 0 e 1 pertencem à sequência de Fibonacci
+        return true; 
     }
     
     int a = 0, b = 1;
@@ -24,14 +24,14 @@ public class fibonacci {
     
     while (fib <= num) {
         if (fib == num) {
-            return true; // O número pertence à sequência
+            return true; 
         }
         a = b;
         b = fib;
         fib = a + b;
     }
     
-    return false; // O número não pertence à sequência
+    return false; 
  }
     
  } 
